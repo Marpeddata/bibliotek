@@ -18,7 +18,7 @@ public class DBConnector {
 
     public static Connection getMaleneConnection() {
         Connection connection = null;
-        String url = "jdbc:mysql://localhost:3306/DemoDatabase?serverTimezone=CET&useSSL=false";
+        String url = "jdbc:mysql://localhost:3306/Bibliotek?serverTimezone=CET&useSSL=false";
         String user = "root";
         String password = "elvinha-17";
         try {
