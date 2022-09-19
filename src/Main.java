@@ -11,7 +11,7 @@ public class Main {
 
         Udlån lån = new Udlån();
 
-        lån.opretLåner();
+        lån.opretBog();
 
 
 //        String svar;
