@@ -9,25 +9,27 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Udlån lån = new Udlån();
 
-        String svar;
+        lån.opretLåner();
 
 
-        while (true) {
-
-            svar = TerminalIO.getString("hvad ønsker du? marks eller malenes");
-
-            switch (svar){
-
-                case "mark":
-                    System.out.println(DBConnector.getMarkConnection());
-                    printNames();
-                    break;
-                case "malene":
-                    System.out.println(DBConnector.getMaleneConnection());
-                    break;
-            }
-        }
+//        String svar;
+////        while (true) {
+////
+////            svar = TerminalIO.getString("hvad ønsker du? marks eller malenes");
+////
+////            switch (svar){
+////
+////                case "mark":
+////                    System.out.println(DBConnector.getMarkConnection());
+////                    printNames();
+////                    break;
+////                case "malene":
+////                    System.out.println(DBConnector.getMaleneConnection());
+////                    break;
+////            }
+////        }
 
 
     }
